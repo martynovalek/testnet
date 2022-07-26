@@ -9,4 +9,3 @@ sleep 2
 sudo cpulimit -b -p $(pgrep java) -l 10 ; cd
 sleep 5
 curl 127.0.0.1:9002/incentivecash+uid:$(cat $HOME/minima_uid.txt)
-EOF
